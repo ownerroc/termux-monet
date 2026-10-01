@@ -820,13 +820,24 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
     private void showFontAndColorDialog() {
         Intent stylingIntent = new Intent();
         stylingIntent.setClassName(TermuxConstants.TERMUX_STYLING_PACKAGE_NAME, TermuxConstants.TERMUX_STYLING.TERMUX_STYLING_ACTIVITY_NAME);
-        try {
-            startActivity(stylingIntent);
-        } catch (ActivityNotFoundException | IllegalArgumentException e) {
-            // The startActivity() call is not documented to throw IllegalArgumentException.
-            // However, crash reporting shows that it sometimes does, so catch it here.
-            new AlertDialog.Builder(this).setMessage(getString(R.string.error_styling_not_installed)).setPositiveButton(R.string.action_styling_install, (dialog, which) -> ActivityUtils.startActivity(this, new Intent(Intent.ACTION_VIEW, Uri.parse(TermuxConstants.TERMUX_STYLING_FDROID_PACKAGE_URL)))).setNegativeButton(android.R.string.cancel, null).show();
+        // Add FLAG_ACTIVITY_NEW_TASK to be safe when called from non-activity context
+        stylingIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        // Verify that the target activity exists and is exported before launching
+        if (stylingIntent.resolveActivity(getPackageManager()) != null) {
+            try {
+                startActivity(stylingIntent);
+                return;
+            } catch (SecurityException e) {
+                // Fall through to fallback dialog if not exported
+            }
         }
+        // If we reach here, styling app is missing, not exported, or cannot be launched
+        new AlertDialog.Builder(this)
+            .setMessage(getString(R.string.error_styling_not_installed))
+            .setPositiveButton(R.string.action_styling_install, (dialog, which) ->
+                ActivityUtils.startActivity(this, new Intent(Intent.ACTION_VIEW, Uri.parse(TermuxConstants.TERMUX_STYLING_FDROID_PACKAGE_URL))))
+            .setNegativeButton(android.R.string.cancel, null)
+            .show();
     }
 
     private void toggleKeepScreenOn() {
