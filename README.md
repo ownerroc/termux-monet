@@ -3,14 +3,14 @@
   <img src="/art/logo_light.png#gh-light-mode-only">
 </p>
 <div align="center">
-  <a href="https://github.com/FlutterGenerator/termux-monet/actions/workflows/debug_build.yml?query=branch%3Amain">
-    <img src="https://img.shields.io/github/actions/workflow/status/FlutterGenerator/termux-monet/debug_build.yml?branch=main&label=Build&logo=gradle"/>
+  <a href="https://github.com/ownerroc/termux-monet/actions/workflows/debug_build.yml?query=branch%3Amain">
+    <img src="https://img.shields.io/github/actions/workflow/status/ownerroc/termux-monet/debug_build.yml?branch=main&label=Build&logo=gradle"/>
   </a>
-  <a href="https://github.com/FlutterGenerator/termux-monet/actions/workflows/run_tests.yml?query=branch%3Amain">
-    <img src="https://img.shields.io/github/actions/workflow/status/FlutterGenerator/termux-monet/run_tests.yml?branch=main&label=Test&logo=gradle"/>
+  <a href="https://github.com/ownerroc/termux-monet/actions/workflows/run_tests.yml?query=branch%3Amain">
+    <img src="https://img.shields.io/github/actions/workflow/status/ownerroc/termux-monet/run_tests.yml?branch=main&label=Test&logo=gradle"/>
   </a>
-  <a href="https://jitpack.io/#FlutterGenerator/termux-monet">
-    <img src="https://jitpack.io/v/FlutterGenerator/termux-monet.svg" alt="JitPack"/>
+  <a href="https://jitpack.io/#ownerroc/termux-monet">
+    <img src="https://jitpack.io/v/ownerroc/termux-monet.svg" alt="JitPack"/>
   </a>
 </div>
 <br />
@@ -18,11 +18,11 @@
   <a href="https://www.android.com/versions/oreo-8-0/">
     <img src="https://img.shields.io/static/v1?label=Android&message=8%2B&color=brightgreen&style=flat&logo=android&logoColor=white"/>
   </a>
-  <a href="https://github.com/FlutterGenerator/termux-monet/commits/main">
-    <img src="https://img.shields.io/github/last-commit/FlutterGenerator/termux-monet/main?color=informational&label=Updated&logo=github"/>
+  <a href="https://github.com/ownerroc/termux-monet/commits/main">
+    <img src="https://img.shields.io/github/last-commit/ownerroc/termux-monet/main?color=informational&label=Updated&logo=github"/>
   </a>
-  <a href="https://github.com/FlutterGenerator/termux-monet/releases">
-    <img src="https://badgen.net/github/tag/FlutterGenerator/termux-monet?icon=terminal&color=orange&label=Latest"/>
+  <a href="https://github.com/ownerroc/termux-monet/releases">
+    <img src="https://badgen.net/github/tag/ownerroc/termux-monet?icon=terminal&color=orange&label=Latest"/>
   </a>
   <a href="/LICENSE">
     <img src="https://img.shields.io/badge/License-GPLv3_only-informational.svg?logo=gnu&label=License"/>
@@ -37,9 +37,8 @@
 
 ***
 
-## [Termux-monet](https://github.com/FlutterGenerator/termux-monet) is a discontinued (unmaintained) unofficial, modified fork of [Termux](https://github.com/termux/termux-app), an Android terminal application and Linux environment, with Monet Theming Implementations and Community-made changes.
-This project has been developed on my spare time, for me to learn more about Android development. Dont expect consistency, professionality or stability. Feel free to fork and continue the project, if you want to do so. All the commits have been squashed, for ease of development of the next maintainer.
-**Good luck!**
+## [Termux:Monet](https://github.com/ownerroc/termux-monet) is an unofficial, modified fork of [Termux](https://github.com/termux/termux-app), an Android terminal application and Linux environment, with Monet Theming Implementations and Community-made changes, maintained by **Ivan Ssl/Slo**.
+This fork is maintained actively. Feel free to fork and continue the project, if you want to do so.
 
 
 ***
@@ -49,7 +48,7 @@ This project has been developed on my spare time, for me to learn more about And
 
 # Termux-Monet can be updated by using [Obtainium](https://github.com/ImranR98/Obtainium)
 Here's a quick tutorial on how to add it to the app.
-<img src="https://raw.githubusercontent.com/FlutterGenerator/termux-monet/master/art/obtainium.png">
+<img src="https://raw.githubusercontent.com/ownerroc/termux-monet/main/art/obtainium.png">
 ***
 
 ## Contents
@@ -68,16 +67,16 @@ Here's a quick tutorial on how to add it to the app.
 
 ## Termux Monet and Plugins
 
-> The [Termux Monet](https://github.com/FlutterGenerator/termux-monet) fork app comes with the following optional modified plugin apps:
+> The [Termux Monet](https://github.com/ownerroc/termux-monet) fork app comes with the following optional modified plugin apps:
 >
 > **These are Modified Plugins. All these repos are Forks from termux-app**
-> - [Termux:Styling](https://github.com/Termux-Monet/termux-styling)
-> - [Termux:API](https://github.com/Termux-Monet/termux-api)
-> - [Termux:Boot](https://github.com/Termux-Monet/termux-boot)
-> - [Termux:Float](https://github.com/Termux-Monet/termux-float)
-> - [Termux:Tasker](https://github.com/Termux-Monet/termux-tasker)
-> - [Termux:Widget](https://github.com/Termux-Monet/termux-widget)
-> - [Termux:GUI](https://github.com/Termux-Monet/termux-gui)
+> - [Termux:Styling](https://github.com/ownerroc/termux-styling)
+> - [Termux:API](https://github.com/ownerroc/termux-api)
+> - [Termux:Boot](https://github.com/ownerroc/termux-boot)
+> - [Termux:Float](https://github.com/ownerroc/termux-float)
+> - [Termux:Tasker](https://github.com/ownerroc/termux-tasker)
+> - [Termux:Widget](https://github.com/ownerroc/termux-widget)
+> - [Termux:GUI](https://github.com/ownerroc/termux-gui)
 
 ***
 
@@ -114,9 +113,9 @@ su -c setprop persist.sys.fflag.override.settings_enable_monitor_phantom_procs f
 
 - On a Rooted phone with Magisk installed, flash the following module:
 
-    > [![](https://img.shields.io/static/v1?message=LetTheGhostsOut.zip&logo=magisk&labelColor=5c5c5c&color=00af9c&logoColor=white&label=%20&style=for-the-badge)](https://raw.githubusercontent.com/FlutterGenerator/termux-monet/master/ppr/PhantomProcessRetainer-main.zip)
+    > [![](https://img.shields.io/static/v1?message=LetTheGhostsOut.zip&logo=magisk&labelColor=5c5c5c&color=00af9c&logoColor=white&label=%20&style=for-the-badge)](https://raw.githubusercontent.com/ownerroc/termux-monet/main/ppr/PhantomProcessRetainer-main.zip)
 
-- After that, `PhantomProcessKiller might be deactivated on every device boot.` Please make an [issue](https://github.com/FlutterGenerator/termux-monet/issues) on this repo if the module didn't work for you.
+- After that, `PhantomProcessKiller might be deactivated on every device boot.` Please make an [issue](https://github.com/ownerroc/termux-monet/issues) on this repo if the module didn't work for you.
 
 #### Check if PhantomProcessKiller was Disabled (ROOT):
 ```
@@ -136,7 +135,7 @@ su -c getprop persist.sys.fflag.override.settings_enable_monitor_phantom_procs
 
 ## Nightly Builds
 
-> Termux-Monet application can be obtained on **GitHub** either from [`GitHub Releases`](https://github.com/FlutterGenerator/termux-monet/releases) for **stablier releases** or from [`GitHub Actions`](https://github.com/FlutterGenerator/termux-monet/actions/workflows/debug_build.yml) for the latest **unstable releases**.
+> Termux-Monet application can be obtained on **GitHub** either from [`GitHub Releases`](https://github.com/ownerroc/termux-monet/releases) for **stablier releases** or from [`GitHub Actions`](https://github.com/ownerroc/termux-monet/actions/workflows/debug_build.yml) for the latest **unstable releases**.
 
 #### Releases (Stablier)
  - The APKs for `GitHub Releases` will be listed under `Assets` drop-down of a release. These are automatically attached when a new version is released.
@@ -265,7 +264,7 @@ Users must post complete report (optionally without sensitive info) when reporti
 ***
 
 ## Disclaimer
-> There's no termux monet official groups other than github.com/termux-monet. If you see any Telegram or Threads group, that's not made by me! Any group that's not mentioned in this README.md is not official.
+> There are no official Termux:Monet groups other than github.com/ownerroc/termux-monet. If you see any Telegram or Threads group claiming to be official, it is not. Any group that's not mentioned in this README.md is not official.
 
 > Do not report issues occurred in Termux Monet on termux-app repo, unless you're completely certain that this problem is also present in the regular Termux App.
 >
@@ -279,11 +278,11 @@ Users must post complete report (optionally without sensitive info) when reporti
 
 ## Forking
 
-- Check [`TermuxConstants`](https://github.com/FlutterGenerator/termux-monet/blob/master/termux-shared/src/main/java/com/termux/shared/termux/TermuxConstants.java) javadocs for instructions on what changes to make in the app to change package name.
+- Check [`TermuxConstants`](https://github.com/ownerroc/termux-monet/blob/main/termux-shared/src/main/java/com/termux/shared/termux/TermuxConstants.java) javadocs for instructions on what changes to make in the app to change package name.
 - Keep targetSdk 28 to avoid login error `not exec("/data/data/com.termux/files/usr/bin/login"): Permission denied`.
 - You also need to recompile bootstrap zip for the new package name. Check [building bootstrap](https://github.com/termux/termux-packages/wiki/For-maintainers#build-bootstrap-archives), [here](https://github.com/termux/termux-app/issues/1983) and [here](https://github.com/termux/termux-app/issues/2081#issuecomment-865280111).
 - Currently, not all plugins use `TermuxConstants` from `termux-shared` library and have hardcoded `com.termux` values and will need to be manually patched.
-- If forking termux plugins, check [Forking and Local Development](https://github.com/FlutterGenerator/termux-monet/wiki/Termux-Libraries#forking-and-local-development) for info on how to use termux libraries for plugins.
+- If forking termux plugins, check [Forking and Local Development](https://github.com/ownerroc/termux-monet/wiki/Termux-Libraries#forking-and-local-development) for info on how to use termux libraries for plugins.
 - Enable GitHub actions and do any commit to build termux. e.g. upload a placeholder file.
 - Create empty releases. You don't need to manually upload termux apks, GitHub Actions will do all the job for you.
 
@@ -291,22 +290,24 @@ Users must post complete report (optionally without sensitive info) when reporti
 
 - Thanks for [Android Repository](https://t.me/AndroidRepo) and [MódulOS.tk](https://t.me/moduloyappstk) for sharing and supporting the project!
 - Thanks for [Termux](https://github.com/termux/termux-app) for creating this incredible app!
+- Upstream: [Termux](https://github.com/termux/termux-app) and the [termux-monet fork](https://github.com/FlutterGenerator/termux-monet) community — this project builds on their work (GPLv3).
+- Maintained by [Ivan Ssl/Slo](https://github.com/ownerroc).
 
 ***
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/FlutterGenerator/termux-monet/master/art/ic_monet_dark.svg#gh-dark-mode-only" width=50% height=50%>
-<img src="https://raw.githubusercontent.com/FlutterGenerator/termux-monet/master/art/ic_monet_light.svg#gh-light-mode-only" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/ownerroc/termux-monet/main/art/ic_monet_dark.svg#gh-dark-mode-only" width=50% height=50%>
+<img src="https://raw.githubusercontent.com/ownerroc/termux-monet/main/art/ic_monet_light.svg#gh-light-mode-only" width=50% height=50%>
 </p>
 
 <div align="center">
-  <a href="https://github.com/FlutterGenerator/termux-monet/releases">
-    <img src="https://img.shields.io/github/downloads/FlutterGenerator/termux-monet/total?color=brightgreen&label=Downloads"/>
+  <a href="https://github.com/ownerroc/termux-monet/releases">
+    <img src="https://img.shields.io/github/downloads/ownerroc/termux-monet/total?color=brightgreen&label=Downloads"/>
   </a>
-  <a href="https://github.com/FlutterGenerator/termux-monet/commits/main">
-    <img src="https://img.shields.io/github/last-commit/FlutterGenerator/termux-monet/main?color=informational&label=Updated&logo=github"/>
+  <a href="https://github.com/ownerroc/termux-monet/commits/main">
+    <img src="https://img.shields.io/github/last-commit/ownerroc/termux-monet/main?color=informational&label=Updated&logo=github"/>
   </a>
-  <a href="https://github.com/FlutterGenerator/termux-monet/forks?activity_threshold=5y&include=active%2Carchived%2Cinactive&page=1&sort_by=last_updated">
-    <img src="https://img.shields.io/github/forks/FlutterGenerator/termux-monet?style=social"/>
+  <a href="https://github.com/ownerroc/termux-monet/forks?activity_threshold=5y&include=active%2Carchived%2Cinactive&page=1&sort_by=last_updated">
+    <img src="https://img.shields.io/github/forks/ownerroc/termux-monet?style=social"/>
   </a>
 </div>
