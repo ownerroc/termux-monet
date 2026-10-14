@@ -379,7 +379,11 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
     private void configureExtraKeysBackground() {
         View extraKeysBackground = findViewById(R.id.extrakeys_background);
         View extraKeysBackgroundBlur = findViewById(R.id.extrakeys_backgroundblur);
-        boolean isToolbarToggled = mPreferences.toogleShowTerminalToolbar();
+        // Read the current pref only — toogleShowTerminalToolbar() flips (read->write)
+        // the value and is for interactive toggles only. Calling it from onStart/onResume
+        // silently inverted show_extra_keys on every resume, so the extra keys toolbar
+        // "hid itself" after backgrounding the app.
+        boolean isToolbarToggled = mPreferences.shouldShowTerminalToolbar();
 
         if (!isToolbarToggled) {
             extraKeysBackgroundBlur.setVisibility(View.GONE);
